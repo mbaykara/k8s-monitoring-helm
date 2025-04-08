@@ -99,6 +99,7 @@ otelcol.processor.transform {{ include "helper.alloy_name" .name | quote }} {
 {{- range $label := .clusterLabels }}
       `set(attributes[{{ $label | quote }}], {{ $.Values.cluster.name | quote }})`,
 {{- end }}
+      `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
 {{- if .processors.transform.metrics.resource }}
 {{- range $transform := .processors.transform.metrics.resource }}
 {{ $transform | quote | indent 6 }},
