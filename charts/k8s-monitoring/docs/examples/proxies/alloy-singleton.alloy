@@ -208,6 +208,7 @@ otelcol.processor.transform "tempo" {
     statements = [
       `set(attributes["cluster"], "proxies-example-cluster")`,
       `set(attributes["k8s.cluster.name"], "proxies-example-cluster")`,
+      `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
     ]
   }
 

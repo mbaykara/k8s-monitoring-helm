@@ -197,6 +197,7 @@ otelcol.processor.transform "otlp_gateway" {
     statements = [
       `set(attributes["cluster"], "applications-cluster")`,
       `set(attributes["k8s.cluster.name"], "applications-cluster")`,
+      `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
     ]
   }
 

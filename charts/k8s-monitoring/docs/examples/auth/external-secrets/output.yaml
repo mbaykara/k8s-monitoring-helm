@@ -264,6 +264,7 @@ data:
         statements = [
           `set(attributes["cluster"], "external-secrets-example-cluster")`,
           `set(attributes["k8s.cluster.name"], "external-secrets-example-cluster")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -665,6 +666,7 @@ data:
         statements = [
           `set(attributes["cluster"], "external-secrets-example-cluster")`,
           `set(attributes["k8s.cluster.name"], "external-secrets-example-cluster")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -1009,6 +1011,7 @@ data:
         statements = [
           `set(attributes["cluster"], "external-secrets-example-cluster")`,
           `set(attributes["k8s.cluster.name"], "external-secrets-example-cluster")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     

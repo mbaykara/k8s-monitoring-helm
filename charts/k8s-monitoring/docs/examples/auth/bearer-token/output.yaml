@@ -254,6 +254,7 @@ data:
         statements = [
           `set(attributes["cluster"], "bearer-token-example-cluster")`,
           `set(attributes["k8s.cluster.name"], "bearer-token-example-cluster")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -635,6 +636,7 @@ data:
         statements = [
           `set(attributes["cluster"], "bearer-token-example-cluster")`,
           `set(attributes["k8s.cluster.name"], "bearer-token-example-cluster")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -959,6 +961,7 @@ data:
         statements = [
           `set(attributes["cluster"], "bearer-token-example-cluster")`,
           `set(attributes["k8s.cluster.name"], "bearer-token-example-cluster")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     

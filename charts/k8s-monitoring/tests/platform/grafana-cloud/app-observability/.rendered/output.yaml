@@ -249,6 +249,7 @@ data:
         statements = [
           `set(attributes["cluster"], "application-observability-gc-feature-test")`,
           `set(attributes["k8s.cluster.name"], "application-observability-gc-feature-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -559,6 +560,7 @@ data:
         statements = [
           `set(attributes["cluster"], "application-observability-gc-feature-test")`,
           `set(attributes["k8s.cluster.name"], "application-observability-gc-feature-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     

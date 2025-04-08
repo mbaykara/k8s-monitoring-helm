@@ -363,6 +363,7 @@ otelcol.processor.transform "otel_endpoint" {
     statements = [
       `set(attributes["cluster"], "oauth2-auth-example")`,
       `set(attributes["k8s.cluster.name"], "oauth2-auth-example")`,
+      `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
     ]
   }
 

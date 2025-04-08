@@ -416,6 +416,7 @@ data:
         statements = [
           `set(attributes["cluster"], "auth-integration-test")`,
           `set(attributes["k8s.cluster.name"], "auth-integration-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -488,6 +489,7 @@ data:
         statements = [
           `set(attributes["cluster"], "auth-integration-test")`,
           `set(attributes["k8s.cluster.name"], "auth-integration-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -566,6 +568,7 @@ data:
         statements = [
           `set(attributes["cluster"], "auth-integration-test")`,
           `set(attributes["k8s.cluster.name"], "auth-integration-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -1100,6 +1103,7 @@ data:
         statements = [
           `set(attributes["cluster"], "auth-integration-test")`,
           `set(attributes["k8s.cluster.name"], "auth-integration-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -1172,6 +1176,7 @@ data:
         statements = [
           `set(attributes["cluster"], "auth-integration-test")`,
           `set(attributes["k8s.cluster.name"], "auth-integration-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -1250,6 +1255,7 @@ data:
         statements = [
           `set(attributes["cluster"], "auth-integration-test")`,
           `set(attributes["k8s.cluster.name"], "auth-integration-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     

@@ -412,6 +412,7 @@ data:
         statements = [
           `set(attributes["cluster"], "otlp-gateway-test")`,
           `set(attributes["k8s.cluster.name"], "otlp-gateway-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -727,6 +728,7 @@ data:
         statements = [
           `set(attributes["cluster"], "otlp-gateway-test")`,
           `set(attributes["k8s.cluster.name"], "otlp-gateway-test")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     

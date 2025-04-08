@@ -155,6 +155,7 @@ otelcol.processor.transform "otlp_gateway" {
     statements = [
       `set(attributes["cluster"], "auto-instrumentation-with-traces-cluster")`,
       `set(attributes["k8s.cluster.name"], "auto-instrumentation-with-traces-cluster")`,
+      `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
     ]
   }
 

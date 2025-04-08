@@ -245,6 +245,7 @@ otelcol.processor.transform "tempo" {
     statements = [
       `set(attributes["cluster"], "external-secrets-example-cluster")`,
       `set(attributes["k8s.cluster.name"], "external-secrets-example-cluster")`,
+      `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
     ]
   }
 

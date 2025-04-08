@@ -981,6 +981,7 @@ otelcol.processor.transform "tempo" {
     statements = [
       `set(attributes["cluster"], "include-by-namespace-cluster")`,
       `set(attributes["k8s.cluster.name"], "include-by-namespace-cluster")`,
+      `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
     ]
   }
 

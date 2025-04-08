@@ -2058,6 +2058,7 @@ data:
         statements = [
           `set(attributes["cluster"], "loki-meta-monitoring-cluster")`,
           `set(attributes["k8s.cluster.name"], "loki-meta-monitoring-cluster")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
@@ -2372,6 +2373,7 @@ data:
         statements = [
           `set(attributes["cluster"], "loki-meta-monitoring-cluster")`,
           `set(attributes["k8s.cluster.name"], "loki-meta-monitoring-cluster")`,
+          `set(attributes["job"], "integrations/kubernetes/eventhandler")`,
         ]
       }
     
